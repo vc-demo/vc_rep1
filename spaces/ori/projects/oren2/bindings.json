@@ -1,8 +1,8 @@
 {
   "project": {
     "space": "ori",
-    "id": "${oren}",
-    "name": "oren",
+    "id": "${oren2}",
+    "name": "oren2",
     "type": "DATA_MOVEMENT",
     "description": "",
     "schemaPrefix": "",
