@@ -4,7 +4,7 @@
     "id": "${oren2}",
     "name": "oren2",
     "type": "DATA_MOVEMENT",
-    "description": "",
+    "description": "a1",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE"
