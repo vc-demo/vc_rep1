@@ -1,10 +1,10 @@
 {
   "project": {
-    "space": "ori",
-    "id": "${oren}",
-    "name": "oren",
+    "space": "automation",
+    "id": "${test1}",
+    "name": "test1",
     "type": "DATA_MOVEMENT",
-    "description": "a2",
+    "description": "",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE"
