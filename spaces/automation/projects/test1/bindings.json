@@ -4,7 +4,7 @@
     "id": "${test1}",
     "name": "test1",
     "type": "DATA_MOVEMENT",
-    "description": "sdeasdasdas",
+    "description": "testtttt",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE"
