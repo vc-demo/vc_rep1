@@ -4,7 +4,7 @@
     "id": "${imported_sf_northwind}",
     "name": "Imported_sf_northwind",
     "type": "DATA_PIPELINE",
-    "description": "",
+    "description": "test",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
