@@ -4,7 +4,7 @@
     "id": "${a1}",
     "name": "a1",
     "type": "DATA_MOVEMENT",
-    "description": "",
+    "description": "asdasdasads",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE"
