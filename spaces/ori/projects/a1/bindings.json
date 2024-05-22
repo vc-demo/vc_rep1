@@ -1,0 +1,23 @@
+{
+  "project": {
+    "space": "ori",
+    "id": "${a1}",
+    "name": "a1",
+    "type": "DATA_MOVEMENT",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE"
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": []
+}
