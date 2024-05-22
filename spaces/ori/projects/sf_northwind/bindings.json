@@ -1,0 +1,61 @@
+{
+  "project": {
+    "space": "ori",
+    "id": "${sf_northwind}",
+    "name": "sf_northwind",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "ori",
+      "name": "Snowflake_Target",
+      "id": "53f2fb76-b959-401c-bb97-cac7a790a551"
+    }
+  },
+  "appSourceConnections": {
+    "${onboarding_landing-cnxn.connection}": "ori.Microsoft_SQL_Server_(log_based)"
+  },
+  "sourceConnections": {
+    "ori.Microsoft_SQL_Server_(log_based)": {
+      "type": "repsrc_mssql",
+      "space": "ori",
+      "name": "Microsoft_SQL_Server_(log_based)",
+      "id": "145ec759-9c36-49e7-8527-41473da16a6c"
+    }
+  },
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "ORI",
+    "storage": "ORI",
+    "transform": "ORI",
+    "datamart": "ORI",
+    "registeredData": "ORI",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "LOAD_WH",
+    "storage": "LOAD_WH",
+    "transform": "LOAD_WH",
+    "datamart": "LOAD_WH",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "onboarding_landing-cnxn",
+      "mappings": [
+        {
+          "from": {
+            "schema": "dbo"
+          },
+          "to": {
+            "schema": "dbo"
+          }
+        }
+      ]
+    }
+  ]
+}
