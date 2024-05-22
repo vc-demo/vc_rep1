@@ -9,7 +9,8 @@
       "tableUpdateInterval": 15,
       "tableUpdateConcurrency": 10,
       "workloadExecutionEngine": {
-        "engineType": "DEFAULT"
+        "engineType": "DEFAULT",
+        "name": "LOAD_WH"
       }
     },
     "dataAppSchedulingInfo": {
@@ -20,7 +21,8 @@
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT"
+      "connectionType": "DEFAULT",
+      "name": "ORI"
     }
   },
   "landingSettingsDefaults": {
@@ -30,14 +32,16 @@
       "changeProcessingInterval": 60,
       "sourceCdcFetchIntervalMinutes": 15,
       "workloadExecutionEngine": {
-        "engineType": "DEFAULT"
+        "engineType": "DEFAULT",
+        "name": "LOAD_WH"
       }
     },
     "folderLocationType": "DATA_ASSET_NAME",
     "specificFolder": "",
     "proxySettings": {},
     "database": {
-      "connectionType": "DEFAULT"
+      "connectionType": "DEFAULT",
+      "name": "ORI"
     }
   },
   "transformSettingsDefaults": {
@@ -48,7 +52,8 @@
       "tableUpdateInterval": 15,
       "tableUpdateConcurrency": 10,
       "workloadExecutionEngine": {
-        "engineType": "DEFAULT"
+        "engineType": "DEFAULT",
+        "name": "LOAD_WH"
       }
     },
     "dataAppSchedulingInfo": {
@@ -59,7 +64,8 @@
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT"
+      "connectionType": "DEFAULT",
+      "name": "ORI"
     }
   },
   "datamartSettingsDefaults": {
@@ -69,7 +75,8 @@
       "tableUpdateInterval": 15,
       "tableUpdateConcurrency": 10,
       "workloadExecutionEngine": {
-        "engineType": "DEFAULT"
+        "engineType": "DEFAULT",
+        "name": "LOAD_WH"
       }
     },
     "dataAppSchedulingInfo": {
@@ -81,7 +88,8 @@
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT"
+      "connectionType": "DEFAULT",
+      "name": "ORI"
     }
   },
   "artifactsNamingDefaults": {
@@ -104,7 +112,8 @@
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT"
+      "connectionType": "DEFAULT",
+      "name": "ORI"
     }
   },
   "loggingTableSettings": {
