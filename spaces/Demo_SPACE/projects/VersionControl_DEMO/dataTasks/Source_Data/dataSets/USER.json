@@ -1,0 +1,18 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$registered_data$TIME_MANAGEMENT_user",
+      "schema": "TIME_MANAGEMENT",
+      "database": "CONNECT_VERSIONCONTROL",
+      "name": "USER",
+      "projectId": "${versioncontrol_demo}",
+      "dataAppId": "source_data-zp6y"
+    }
+  ],
+  "id": "user",
+  "name": "USER",
+  "description": "",
+  "version": "1"
+}

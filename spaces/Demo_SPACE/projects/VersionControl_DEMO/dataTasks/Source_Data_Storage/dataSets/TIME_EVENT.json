@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "time_event",
+      "name": "TIME_EVENT",
+      "projectId": "${versioncontrol_demo}",
+      "dataAppId": "source_data-zp6y"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "time_event-zp6b",
+  "name": "TIME_EVENT",
+  "description": "",
+  "version": "1"
+}

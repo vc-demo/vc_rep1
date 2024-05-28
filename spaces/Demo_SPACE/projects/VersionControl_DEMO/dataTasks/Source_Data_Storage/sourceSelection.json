@@ -1,0 +1,15 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${versioncontrol_demo}",
+        "dataAppId": "source_data-zp6y"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}
