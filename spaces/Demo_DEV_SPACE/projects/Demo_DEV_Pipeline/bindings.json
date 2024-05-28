@@ -4,7 +4,7 @@
     "id": "${demo_dev_pipeline}",
     "name": "Demo_DEV_Pipeline",
     "type": "DATA_PIPELINE",
-    "description": "",
+    "description": "This is my project description",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
