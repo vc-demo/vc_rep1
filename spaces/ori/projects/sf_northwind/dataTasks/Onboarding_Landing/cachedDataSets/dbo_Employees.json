@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Employees",
+    "dbSchema": "dbo",
+    "secureQri": ""
+  },
+  "id": "$replicate$dbo_employees",
+  "name": "dbo_Employees",
+  "description": "",
+  "version": "1"
+}

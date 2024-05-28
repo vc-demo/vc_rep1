@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "shippers",
+      "name": "Shippers",
+      "projectId": "${sf_northwind}",
+      "dataAppId": "onboarding_landing-cnxn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "shippers-cnxx",
+  "name": "Shippers",
+  "description": "",
+  "version": "1"
+}
