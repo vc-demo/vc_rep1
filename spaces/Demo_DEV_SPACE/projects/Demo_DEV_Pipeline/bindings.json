@@ -1,0 +1,54 @@
+{
+  "project": {
+    "space": "Demo_DEV_SPACE",
+    "id": "${demo_dev_pipeline}",
+    "name": "Demo_DEV_Pipeline",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "Demo_DEV_SPACE",
+      "name": "Snowflake_DEV",
+      "id": "3916278f-9ce4-42f6-aa54-a21ddd7c4aa0"
+    }
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "CONNECT_VERSIONCONTROL",
+    "storage": "CONNECT_VERSIONCONTROL",
+    "transform": "CONNECT_VERSIONCONTROL",
+    "datamart": "CONNECT_VERSIONCONTROL",
+    "registeredData": "CONNECT_VERSIONCONTROL",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "LOAD_WH",
+    "storage": "LOAD_WH",
+    "transform": "LOAD_WH",
+    "datamart": "LOAD_WH",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "source_data_dev-zp6o",
+      "mappings": [
+        {
+          "from": {
+            "database": "CONNECT_VERSIONCONTROL",
+            "schema": "TIME_MANAGEMENT"
+          },
+          "to": {
+            "database": "CONNECT_VERSIONCONTROL",
+            "schema": "TIME_MANAGEMENT"
+          }
+        }
+      ]
+    }
+  ]
+}
