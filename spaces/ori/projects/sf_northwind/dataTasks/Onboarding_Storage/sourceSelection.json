@@ -1,0 +1,15 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${sf_northwind}",
+        "dataAppId": "onboarding_landing-cnxn"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}

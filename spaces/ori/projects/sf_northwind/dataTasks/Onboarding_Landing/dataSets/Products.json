@@ -1,0 +1,17 @@
+{
+  "type": "LANDING",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_products",
+      "schema": "dbo",
+      "name": "Products",
+      "projectId": "${sf_northwind}",
+      "dataAppId": "onboarding_landing-cnxn"
+    }
+  ],
+  "id": "products",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}
