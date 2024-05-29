@@ -4,7 +4,7 @@
     "id": "${versioncontrol_demo}",
     "name": "VersionControl_DEMO",
     "type": "DATA_PIPELINE",
-    "description": "",
+    "description": "This project is used to submit time spent ",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
