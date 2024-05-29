@@ -1,0 +1,89 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${onboardingadimay29_landing-0pgq.connection}",
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_categories",
+        "schema": "dbo",
+        "name": "Categories",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_customers",
+        "schema": "dbo",
+        "name": "Customers",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_employees",
+        "schema": "dbo",
+        "name": "Employees",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_order_details",
+        "schema": "dbo",
+        "name": "Order Details",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_orders",
+        "schema": "dbo",
+        "name": "Orders",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_products",
+        "schema": "dbo",
+        "name": "Products",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_region",
+        "schema": "dbo",
+        "name": "Region",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_shippers",
+        "schema": "dbo",
+        "name": "Shippers",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_suppliers",
+        "schema": "dbo",
+        "name": "Suppliers",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_territories",
+        "schema": "dbo",
+        "name": "Territories",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      }
+    ]
+  }
+}

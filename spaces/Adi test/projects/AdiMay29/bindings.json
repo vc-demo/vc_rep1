@@ -1,0 +1,61 @@
+{
+  "project": {
+    "space": "Adi test",
+    "id": "${adimay29}",
+    "name": "AdiMay29",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "automation",
+      "name": "systest-snowflake-1",
+      "id": "559cec59-a3fe-4ff3-be9d-5cc4b3c5627f"
+    }
+  },
+  "appSourceConnections": {
+    "${onboardingadimay29_landing-0pgq.connection}": "automation.sde-mssql_source-NORTHWIND_mini-1"
+  },
+  "sourceConnections": {
+    "automation.sde-mssql_source-NORTHWIND_mini-1": {
+      "type": "repsrc_mssql",
+      "space": "automation",
+      "name": "sde-mssql_source-NORTHWIND_mini-1",
+      "id": "2474210a-2b49-4548-b648-daf710202d91"
+    }
+  },
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "DIS_AUTOMATION",
+    "storage": "DIS_AUTOMATION",
+    "transform": "DIS_AUTOMATION",
+    "datamart": "DIS_AUTOMATION",
+    "registeredData": "DIS_AUTOMATION",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "DIS",
+    "storage": "DIS",
+    "transform": "DIS",
+    "datamart": "DIS",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "onboardingadimay29_landing-0pgq",
+      "mappings": [
+        {
+          "from": {
+            "schema": "dbo"
+          },
+          "to": {
+            "schema": "dbo"
+          }
+        }
+      ]
+    }
+  ]
+}

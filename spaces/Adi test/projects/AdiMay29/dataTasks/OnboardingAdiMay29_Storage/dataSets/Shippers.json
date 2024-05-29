@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "shippers",
+      "name": "Shippers",
+      "projectId": "${adimay29}",
+      "dataAppId": "onboardingadimay29_landing-0pgq"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "shippers-0pga",
+  "name": "Shippers",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "LANDING",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_region",
+      "schema": "dbo",
+      "name": "Region",
+      "projectId": "${adimay29}",
+      "dataAppId": "onboardingadimay29_landing-0pgq"
+    }
+  ],
+  "id": "region",
+  "name": "Region",
+  "description": "",
+  "version": "1"
+}

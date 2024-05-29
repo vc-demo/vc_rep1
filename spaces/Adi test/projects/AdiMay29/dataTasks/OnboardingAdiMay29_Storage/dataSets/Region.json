@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "region",
+      "name": "Region",
+      "projectId": "${adimay29}",
+      "dataAppId": "onboardingadimay29_landing-0pgq"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "region-0pgz",
+  "name": "Region",
+  "description": "",
+  "version": "1"
+}

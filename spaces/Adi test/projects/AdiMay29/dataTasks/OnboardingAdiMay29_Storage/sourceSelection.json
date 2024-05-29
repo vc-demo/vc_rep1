@@ -1,0 +1,15 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${adimay29}",
+        "dataAppId": "onboardingadimay29_landing-0pgq"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}

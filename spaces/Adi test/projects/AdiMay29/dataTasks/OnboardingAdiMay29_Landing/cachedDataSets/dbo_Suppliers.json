@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Suppliers",
+    "dbSchema": "dbo",
+    "secureQri": ""
+  },
+  "id": "$replicate$dbo_suppliers",
+  "name": "dbo_Suppliers",
+  "description": "",
+  "version": "1"
+}

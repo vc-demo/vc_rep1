@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "orders",
+      "name": "Orders",
+      "projectId": "${adimay29}",
+      "dataAppId": "onboardingadimay29_landing-0pgq"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "orders-0pgx",
+  "name": "Orders",
+  "description": "",
+  "version": "1"
+}
