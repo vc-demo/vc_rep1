@@ -1,0 +1,11 @@
+{
+  "tableRules": [
+    "user-zp6g",
+    "time_event-yjbt"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}
