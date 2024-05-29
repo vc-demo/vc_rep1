@@ -1,0 +1,25 @@
+{
+  "entityId": "user",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "USER",
+    "whereColumnName": "%"
+  },
+  "enabled": true,
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "KEEP",
+        "columnName": "USER_ID",
+        "newColumnName": "USER_ID",
+        "primaryKeyOrdinal": 1
+      }
+    ]
+  },
+  "id": "user-zp6g",
+  "name": "USER",
+  "description": "",
+  "version": "1"
+}

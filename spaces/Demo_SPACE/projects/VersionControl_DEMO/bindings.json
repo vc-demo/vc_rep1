@@ -4,7 +4,7 @@
     "id": "${versioncontrol_demo}",
     "name": "VersionControl_DEMO",
     "type": "DATA_PIPELINE",
-    "description": "",
+    "description": "this is my new description",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
