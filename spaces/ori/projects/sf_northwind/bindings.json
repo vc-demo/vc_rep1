@@ -4,7 +4,7 @@
     "id": "${sf_northwind}",
     "name": "sf_northwind",
     "type": "DATA_PIPELINE",
-    "description": "test",
+    "description": "test_2",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
