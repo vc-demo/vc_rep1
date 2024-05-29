@@ -1,0 +1,66 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "shippers-9wby",
+      "name": "Shippers",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    }
+  ],
+  "tableDef": {
+    "name": "Shippers",
+    "columns": [
+      {
+        "name": "ShipperID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "shipperid"
+      },
+      {
+        "name": "CompanyName",
+        "ordinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "id": "companyname"
+      },
+      {
+        "name": "Phone",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 24,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(24)"
+        },
+        "id": "phone"
+      },
+      {
+        "name": "ModifiedOn",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "id": "rule-nlsv"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "shippers-lija",
+  "name": "Shippers",
+  "description": "",
+  "version": "1"
+}

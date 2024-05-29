@@ -1,0 +1,515 @@
+{
+  "type": "DIMENSION_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "products-rq8q",
+      "name": "Products",
+      "projectId": "${vc_test}",
+      "dataAppId": "transform_a-9wb0"
+    },
+    {
+      "entityId": "categories-rq9c",
+      "name": "Categories",
+      "projectId": "${vc_test}",
+      "dataAppId": "transform_a-9wb0"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Products",
+    "dbSchema": "dm222",
+    "dbName": "AAA_TZACHI2",
+    "columns": [
+      {
+        "name": "ProductID",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${ProductID}",
+          "alias": [
+            {
+              "name": "ProductID",
+              "value": "ProductID"
+            }
+          ]
+        },
+        "id": "productid"
+      },
+      {
+        "name": "ProductName",
+        "ordinal": 2,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "expression": {
+          "expressionStatement": "${ProductName}",
+          "alias": [
+            {
+              "name": "ProductName",
+              "value": "ProductName"
+            }
+          ]
+        },
+        "id": "productname"
+      },
+      {
+        "name": "SupplierID",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${SupplierID}",
+          "alias": [
+            {
+              "name": "SupplierID",
+              "value": "SupplierID"
+            }
+          ]
+        },
+        "id": "supplierid"
+      },
+      {
+        "name": "CategoryID",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${CategoryID}",
+          "alias": [
+            {
+              "name": "CategoryID",
+              "value": "CategoryID"
+            }
+          ]
+        },
+        "id": "categoryid"
+      },
+      {
+        "name": "QuantityPerUnit",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "expression": {
+          "expressionStatement": "${QuantityPerUnit}",
+          "alias": [
+            {
+              "name": "QuantityPerUnit",
+              "value": "QuantityPerUnit"
+            }
+          ]
+        },
+        "id": "quantityperunit"
+      },
+      {
+        "name": "UnitPrice",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 19,
+          "scale": 4,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(19,4)"
+        },
+        "expression": {
+          "expressionStatement": "${UnitPrice}",
+          "alias": [
+            {
+              "name": "UnitPrice",
+              "value": "UnitPrice"
+            }
+          ]
+        },
+        "id": "unitprice"
+      },
+      {
+        "name": "UnitsInStock",
+        "ordinal": 7,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${UnitsInStock}",
+          "alias": [
+            {
+              "name": "UnitsInStock",
+              "value": "UnitsInStock"
+            }
+          ]
+        },
+        "id": "unitsinstock"
+      },
+      {
+        "name": "UnitsOnOrder",
+        "ordinal": 8,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${UnitsOnOrder}",
+          "alias": [
+            {
+              "name": "UnitsOnOrder",
+              "value": "UnitsOnOrder"
+            }
+          ]
+        },
+        "id": "unitsonorder"
+      },
+      {
+        "name": "ReorderLevel",
+        "ordinal": 9,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "expression": {
+          "expressionStatement": "${ReorderLevel}",
+          "alias": [
+            {
+              "name": "ReorderLevel",
+              "value": "ReorderLevel"
+            }
+          ]
+        },
+        "id": "reorderlevel"
+      },
+      {
+        "name": "ModifiedOn",
+        "ordinal": 10,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "expression": {
+          "expressionStatement": "${ModifiedOn}",
+          "alias": [
+            {
+              "name": "ModifiedOn",
+              "value": "ModifiedOn"
+            }
+          ]
+        },
+        "id": "rule-nlsv"
+      },
+      {
+        "name": "CategoryName",
+        "ordinal": 11,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "expression": {
+          "expressionStatement": "${CategoryName}",
+          "alias": [
+            {
+              "name": "CategoryName",
+              "value": "CategoryName"
+            }
+          ]
+        },
+        "id": "products_categories_relation-mswm$_$categoryname"
+      },
+      {
+        "name": "Description",
+        "ordinal": 12,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 8192,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(8192)"
+        },
+        "expression": {
+          "expressionStatement": "${Description}",
+          "alias": [
+            {
+              "name": "Description",
+              "value": "Description"
+            }
+          ]
+        },
+        "id": "products_categories_relation-mswm$_$description"
+      },
+      {
+        "name": "Picture",
+        "ordinal": 13,
+        "nullable": true,
+        "datatype": {
+          "type": "BYTES",
+          "length": 16384,
+          "originalType": "BINARY",
+          "originalTypeFull": "BINARY(16384)"
+        },
+        "expression": {
+          "expressionStatement": "${Picture}",
+          "alias": [
+            {
+              "name": "Picture",
+              "value": "Picture"
+            }
+          ]
+        },
+        "id": "products_categories_relation-mswm$_$picture"
+      },
+      {
+        "name": "Products_Categories_relation_ModifiedOn",
+        "ordinal": 14,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "expression": {
+          "expressionStatement": "${ModifiedOn}",
+          "alias": [
+            {
+              "name": "ModifiedOn",
+              "value": "ModifiedOn"
+            }
+          ]
+        },
+        "id": "products_categories_relation-mswm$_$rule-nlsv"
+      }
+    ],
+    "entityId": "",
+    "secureQri": ""
+  },
+  "newName": "Products",
+  "dimensionDataEntitySettings": {
+    "rootDataEntityId": {
+      "entityId": "products-rq8q",
+      "name": "Products",
+      "projectId": "${vc_test}",
+      "dataAppId": "transform_a-9wb0"
+    },
+    "entityRelationshipPath": [
+      "products_categories_relation-mswm"
+    ],
+    "mapping": {
+      "columns": [
+        {
+          "columnName": "ProductID",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${ProductID}",
+            "alias": [
+              {
+                "name": "ProductID",
+                "value": "ProductID"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ProductName",
+          "expression": {
+            "expressionStatement": "${ProductName}",
+            "alias": [
+              {
+                "name": "ProductName",
+                "value": "ProductName"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "SupplierID",
+          "expression": {
+            "expressionStatement": "${SupplierID}",
+            "alias": [
+              {
+                "name": "SupplierID",
+                "value": "SupplierID"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "CategoryID",
+          "expression": {
+            "expressionStatement": "${CategoryID}",
+            "alias": [
+              {
+                "name": "CategoryID",
+                "value": "CategoryID"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "QuantityPerUnit",
+          "expression": {
+            "expressionStatement": "${QuantityPerUnit}",
+            "alias": [
+              {
+                "name": "QuantityPerUnit",
+                "value": "QuantityPerUnit"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "UnitPrice",
+          "expression": {
+            "expressionStatement": "${UnitPrice}",
+            "alias": [
+              {
+                "name": "UnitPrice",
+                "value": "UnitPrice"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "UnitsInStock",
+          "expression": {
+            "expressionStatement": "${UnitsInStock}",
+            "alias": [
+              {
+                "name": "UnitsInStock",
+                "value": "UnitsInStock"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "UnitsOnOrder",
+          "expression": {
+            "expressionStatement": "${UnitsOnOrder}",
+            "alias": [
+              {
+                "name": "UnitsOnOrder",
+                "value": "UnitsOnOrder"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ReorderLevel",
+          "expression": {
+            "expressionStatement": "${ReorderLevel}",
+            "alias": [
+              {
+                "name": "ReorderLevel",
+                "value": "ReorderLevel"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ModifiedOn",
+          "expression": {
+            "expressionStatement": "${ModifiedOn}",
+            "alias": [
+              {
+                "name": "ModifiedOn",
+                "value": "ModifiedOn"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "CategoryName",
+          "expression": {
+            "expressionStatement": "${CategoryName}",
+            "alias": [
+              {
+                "name": "CategoryName",
+                "value": "products_categories_relation-mswm$_$CategoryName"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Description",
+          "expression": {
+            "expressionStatement": "${Description}",
+            "alias": [
+              {
+                "name": "Description",
+                "value": "products_categories_relation-mswm$_$Description"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Picture",
+          "expression": {
+            "expressionStatement": "${Picture}",
+            "alias": [
+              {
+                "name": "Picture",
+                "value": "products_categories_relation-mswm$_$Picture"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Products_Categories_relation_ModifiedOn",
+          "expression": {
+            "expressionStatement": "${ModifiedOn}",
+            "alias": [
+              {
+                "name": "ModifiedOn",
+                "value": "ModifiedOn"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "id": "products-w9-r",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}

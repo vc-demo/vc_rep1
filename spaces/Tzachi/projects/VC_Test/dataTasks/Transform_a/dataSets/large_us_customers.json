@@ -1,0 +1,108 @@
+{
+  "type": "CUSTOM",
+  "inputDataEntities": [
+    {
+      "entityId": "customers-9wbt",
+      "name": "Customers",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    },
+    {
+      "entityId": "order_details-9wbv",
+      "name": "Order Details",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    },
+    {
+      "entityId": "orders-9wbw",
+      "name": "Orders",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "large_us_customers",
+    "columns": [
+      {
+        "name": "CustomerID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 5,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(5)"
+        },
+        "id": "customerid"
+      },
+      {
+        "name": "CompanyName",
+        "ordinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "id": "companyname"
+      },
+      {
+        "name": "Country",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "id": "country"
+      },
+      {
+        "name": "TOTALORDERVALUE",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "REAL8",
+          "originalType": "DOUBLE",
+          "originalTypeFull": "DOUBLE"
+        },
+        "id": "totalordervalue"
+      }
+    ],
+    "secureQri": ""
+  },
+  "customDataEntitySettings": {
+    "customSql": {
+      "expressionStatement": "\nSELECT c.\u0022CustomerID\u0022, c.\u0022CompanyName\u0022, c.\u0022Country\u0022, SUM(od.\u0022UnitPrice\u0022 * od.\u0022Quantity\u0022 * (1 - od.\u0022Discount\u0022)) AS TotalOrderValue\nFROM ${Customers} c\nJOIN ${Orders} o ON c.\u0022CustomerID\u0022 = o.\u0022CustomerID\u0022\nJOIN ${Order Details} od ON o.\u0022OrderID\u0022 = od.\u0022OrderID\u0022\nWHERE c.\u0022Country\u0022 = \u0027USA\u0027\nGROUP BY c.\u0022CustomerID\u0022, c.\u0022CompanyName\u0022, c.\u0022Country\u0022\nHAVING SUM(od.\u0022UnitPrice\u0022 * od.\u0022Quantity\u0022 * (1 - od.\u0022Discount\u0022)) \u003E 1000000\n",
+      "alias": [
+        {
+          "name": "Customers",
+          "value": "${projectId}$_$northwind_a_storage-9wbq$_$customers-9wbt"
+        },
+        {
+          "name": "Orders",
+          "value": "${projectId}$_$northwind_a_storage-9wbq$_$orders-9wbw"
+        },
+        {
+          "name": "Order Details",
+          "value": "${projectId}$_$northwind_a_storage-9wbq$_$order_details-9wbv"
+        }
+      ]
+    },
+    "text2sqlPrompt": "customers in the US with total orders over 1M dollars",
+    "text2sqlResult": "\nSELECT c.\u0022CustomerID\u0022, c.\u0022CompanyName\u0022, c.\u0022Country\u0022, SUM(od.\u0022UnitPrice\u0022 * od.\u0022Quantity\u0022 * (1 - od.\u0022Discount\u0022)) AS TotalOrderValue\nFROM ${Customers} c\nJOIN ${Orders} o ON c.\u0022CustomerID\u0022 = o.\u0022CustomerID\u0022\nJOIN ${Order Details} od ON o.\u0022OrderID\u0022 = od.\u0022OrderID\u0022\nWHERE c.\u0022Country\u0022 = \u0027USA\u0027\nGROUP BY c.\u0022CustomerID\u0022, c.\u0022CompanyName\u0022, c.\u0022Country\u0022\nHAVING SUM(od.\u0022UnitPrice\u0022 * od.\u0022Quantity\u0022 * (1 - od.\u0022Discount\u0022)) \u003E 1000000\n"
+  },
+  "id": "large_us_customers-w98q",
+  "name": "large_us_customers",
+  "description": "",
+  "version": "1"
+}

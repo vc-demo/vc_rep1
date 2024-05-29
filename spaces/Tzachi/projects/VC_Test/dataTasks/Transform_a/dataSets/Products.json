@@ -1,0 +1,139 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "products-9wbx",
+      "name": "Products",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    }
+  ],
+  "tableDef": {
+    "name": "Products",
+    "columns": [
+      {
+        "name": "ProductID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "productid"
+      },
+      {
+        "name": "ProductName",
+        "ordinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "id": "productname"
+      },
+      {
+        "name": "SupplierID",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "supplierid"
+      },
+      {
+        "name": "CategoryID",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "categoryid"
+      },
+      {
+        "name": "QuantityPerUnit",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "quantityperunit"
+      },
+      {
+        "name": "UnitPrice",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 19,
+          "scale": 4,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(19,4)"
+        },
+        "id": "unitprice"
+      },
+      {
+        "name": "UnitsInStock",
+        "ordinal": 7,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "unitsinstock"
+      },
+      {
+        "name": "UnitsOnOrder",
+        "ordinal": 8,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "unitsonorder"
+      },
+      {
+        "name": "ReorderLevel",
+        "ordinal": 9,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "reorderlevel"
+      },
+      {
+        "name": "ModifiedOn",
+        "ordinal": 11,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "id": "rule-nlsv"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "products-rq8q",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}

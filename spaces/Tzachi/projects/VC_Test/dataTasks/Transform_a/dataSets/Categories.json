@@ -1,0 +1,78 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "categories-9wbs",
+      "name": "Categories",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a_storage-9wbq"
+    }
+  ],
+  "tableDef": {
+    "name": "Categories",
+    "columns": [
+      {
+        "name": "CategoryID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 38,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "categoryid"
+      },
+      {
+        "name": "CategoryName",
+        "ordinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "id": "categoryname"
+      },
+      {
+        "name": "Description",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 8192,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(8192)"
+        },
+        "id": "description"
+      },
+      {
+        "name": "Picture",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "BYTES",
+          "length": 16384,
+          "originalType": "BINARY",
+          "originalTypeFull": "BINARY(16384)"
+        },
+        "id": "picture"
+      },
+      {
+        "name": "ModifiedOn",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "id": "rule-nlsv"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "categories-rq9c",
+  "name": "Categories",
+  "description": "",
+  "version": "1"
+}

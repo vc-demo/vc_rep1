@@ -1,0 +1,13 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${vc_test}",
+        "dataAppId": "transform_a-9wb0"
+      }
+    ]
+  }
+}

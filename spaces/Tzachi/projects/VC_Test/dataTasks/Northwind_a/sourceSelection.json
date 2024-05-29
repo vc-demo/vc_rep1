@@ -1,0 +1,80 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_categories",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Categories",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_customers",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Customers",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_employees",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Employees",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_order_details",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Order Details",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_orders",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Orders",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_products",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Products",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_shippers",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Shippers",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$northwind_landing_suppliers",
+        "schema": "northwind_landing",
+        "database": "AAA_TZACHI2",
+        "name": "Suppliers",
+        "projectId": "${vc_test}",
+        "dataAppId": "northwind_a-9wbp"
+      }
+    ]
+  }
+}

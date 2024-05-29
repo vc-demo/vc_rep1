@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "orders-j4vo",
+    "name": "Orders",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "targetEntity": {
+    "entityId": "employees-msv1",
+    "name": "Employees",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "EmployeeID",
+      "targetColumn": "EmployeeID",
+      "sourceColumnId": "employeeid",
+      "targetColumnId": "employeeid"
+    }
+  ],
+  "id": "orders_employees_relation-ytvh",
+  "name": "Orders_Employees_relation",
+  "description": "",
+  "version": "1"
+}

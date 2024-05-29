@@ -1,0 +1,24 @@
+{
+  "entityId": "products-9wbx",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "Products",
+    "whereColumnName": "%"
+  },
+  "enabled": true,
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "DROP",
+        "columnName": "Discontinued",
+        "nullable": true
+      }
+    ]
+  },
+  "id": "products-nlsw",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}

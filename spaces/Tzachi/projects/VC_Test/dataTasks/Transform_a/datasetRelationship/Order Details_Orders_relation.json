@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "order_details-w98m",
+    "name": "Order Details",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "targetEntity": {
+    "entityId": "orders-j4vo",
+    "name": "Orders",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "OrderID",
+      "targetColumn": "OrderID",
+      "sourceColumnId": "orderid",
+      "targetColumnId": "orderid"
+    }
+  ],
+  "id": "order_details_orders_relation-hb8a",
+  "name": "Order Details_Orders_relation",
+  "description": "",
+  "version": "1"
+}

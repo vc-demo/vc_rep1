@@ -1,0 +1,54 @@
+{
+  "project": {
+    "space": "Tzachi",
+    "id": "${vc_test}",
+    "name": "VC_Test",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "ori",
+      "name": "Snowflake_Target",
+      "id": "85df1b40-50b9-47ab-a1ce-7cb3191545c6"
+    }
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "ORI",
+    "storage": "ORI",
+    "transform": "ORI",
+    "datamart": "ORI",
+    "registeredData": "ORI",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "LOAD_WH",
+    "storage": "LOAD_WH",
+    "transform": "LOAD_WH",
+    "datamart": "LOAD_WH",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "northwind_a-9wbp",
+      "mappings": [
+        {
+          "from": {
+            "database": "AAA_TZACHI2",
+            "schema": "northwind_landing"
+          },
+          "to": {
+            "database": "AAA_TZACHI2",
+            "schema": "northwind_landing"
+          }
+        }
+      ]
+    }
+  ]
+}

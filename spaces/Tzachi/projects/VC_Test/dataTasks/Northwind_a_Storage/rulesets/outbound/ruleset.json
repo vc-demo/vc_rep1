@@ -1,0 +1,15 @@
+{
+  "globalRules": [
+    "rule-nlsv"
+  ],
+  "tableRules": [
+    "products-nlsw",
+    "categories-w98t",
+    "customers-w98u"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}

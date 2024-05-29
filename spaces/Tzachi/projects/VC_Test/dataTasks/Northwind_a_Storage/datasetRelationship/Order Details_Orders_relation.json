@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "order_details-9wbv",
+    "name": "Order Details",
+    "projectId": "${vc_test}",
+    "dataAppId": "northwind_a_storage-9wbq"
+  },
+  "targetEntity": {
+    "entityId": "orders-9wbw",
+    "name": "Orders",
+    "projectId": "${vc_test}",
+    "dataAppId": "northwind_a_storage-9wbq"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "OrderID",
+      "targetColumn": "OrderID",
+      "sourceColumnId": "orderid",
+      "targetColumnId": "orderid"
+    }
+  ],
+  "id": "order_details_orders_relation-mswh",
+  "name": "Order Details_Orders_relation",
+  "description": "",
+  "version": "1"
+}

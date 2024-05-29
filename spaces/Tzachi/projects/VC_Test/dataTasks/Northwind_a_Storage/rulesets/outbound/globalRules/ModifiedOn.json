@@ -1,0 +1,29 @@
+{
+  "actionType": "ADD_COLUMN",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "%",
+    "whereColumnName": "%"
+  },
+  "action": {
+    "renameType": "RENAME",
+    "expression": {
+      "expressionStatement": "CURRENT_TIMESTAMP",
+      "alias": []
+    },
+    "column": {
+      "name": "ModifiedOn",
+      "nullable": true,
+      "datatype": {
+        "type": "DATETIME",
+        "originalTypeFull": ""
+      }
+    }
+  },
+  "enabled": true,
+  "id": "rule-nlsv",
+  "name": "ModifiedOn",
+  "description": "",
+  "version": "1"
+}

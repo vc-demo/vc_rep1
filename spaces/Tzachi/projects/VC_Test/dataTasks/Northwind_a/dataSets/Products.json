@@ -1,0 +1,18 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$registered_data$northwind_landing_products",
+      "schema": "northwind_landing",
+      "database": "AAA_TZACHI2",
+      "name": "Products",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a-9wbp"
+    }
+  ],
+  "id": "products",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}

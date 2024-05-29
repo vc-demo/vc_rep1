@@ -1,0 +1,474 @@
+{
+  "type": "DIMENSION_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "customers-lijg",
+      "name": "Customers",
+      "projectId": "${vc_test}",
+      "dataAppId": "transform_a-9wb0"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Customers",
+    "dbSchema": "dm222",
+    "dbName": "AAA_TZACHI2",
+    "columns": [
+      {
+        "name": "CustomerID",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 5,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(5)"
+        },
+        "expression": {
+          "expressionStatement": "${CustomerID}",
+          "alias": [
+            {
+              "name": "CustomerID",
+              "value": "CustomerID"
+            }
+          ]
+        },
+        "id": "customerid"
+      },
+      {
+        "name": "CompanyName",
+        "ordinal": 2,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "expression": {
+          "expressionStatement": "${CompanyName}",
+          "alias": [
+            {
+              "name": "CompanyName",
+              "value": "CompanyName"
+            }
+          ]
+        },
+        "id": "companyname"
+      },
+      {
+        "name": "ContactName",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 30,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(30)"
+        },
+        "expression": {
+          "expressionStatement": "${ContactName}",
+          "alias": [
+            {
+              "name": "ContactName",
+              "value": "ContactName"
+            }
+          ]
+        },
+        "id": "contactname"
+      },
+      {
+        "name": "ContactTitle",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 30,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(30)"
+        },
+        "expression": {
+          "expressionStatement": "${ContactTitle}",
+          "alias": [
+            {
+              "name": "ContactTitle",
+              "value": "ContactTitle"
+            }
+          ]
+        },
+        "id": "contacttitle"
+      },
+      {
+        "name": "Address",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 60,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(60)"
+        },
+        "expression": {
+          "expressionStatement": "${Address}",
+          "alias": [
+            {
+              "name": "Address",
+              "value": "Address"
+            }
+          ]
+        },
+        "id": "address"
+      },
+      {
+        "name": "City",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "expression": {
+          "expressionStatement": "${City}",
+          "alias": [
+            {
+              "name": "City",
+              "value": "City"
+            }
+          ]
+        },
+        "id": "city"
+      },
+      {
+        "name": "Region",
+        "ordinal": 7,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "expression": {
+          "expressionStatement": "${Region}",
+          "alias": [
+            {
+              "name": "Region",
+              "value": "Region"
+            }
+          ]
+        },
+        "id": "region"
+      },
+      {
+        "name": "PostalCode",
+        "ordinal": 8,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "expression": {
+          "expressionStatement": "${PostalCode}",
+          "alias": [
+            {
+              "name": "PostalCode",
+              "value": "PostalCode"
+            }
+          ]
+        },
+        "id": "postalcode"
+      },
+      {
+        "name": "Country",
+        "ordinal": 9,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "expression": {
+          "expressionStatement": "${Country}",
+          "alias": [
+            {
+              "name": "Country",
+              "value": "Country"
+            }
+          ]
+        },
+        "id": "country"
+      },
+      {
+        "name": "Phone",
+        "ordinal": 10,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 24,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(24)"
+        },
+        "expression": {
+          "expressionStatement": "${Phone}",
+          "alias": [
+            {
+              "name": "Phone",
+              "value": "Phone"
+            }
+          ]
+        },
+        "id": "phone"
+      },
+      {
+        "name": "Fax",
+        "ordinal": 11,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 24,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(24)"
+        },
+        "expression": {
+          "expressionStatement": "${Fax}",
+          "alias": [
+            {
+              "name": "Fax",
+              "value": "Fax"
+            }
+          ]
+        },
+        "id": "fax"
+      },
+      {
+        "name": "Test",
+        "ordinal": 12,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "expression": {
+          "expressionStatement": "${Test}",
+          "alias": [
+            {
+              "name": "Test",
+              "value": "Test"
+            }
+          ]
+        },
+        "id": "test"
+      },
+      {
+        "name": "ModifiedOn",
+        "ordinal": 13,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "expression": {
+          "expressionStatement": "${ModifiedOn}",
+          "alias": [
+            {
+              "name": "ModifiedOn",
+              "value": "ModifiedOn"
+            }
+          ]
+        },
+        "id": "rule-nlsv"
+      }
+    ],
+    "entityId": "",
+    "secureQri": ""
+  },
+  "newName": "Customers",
+  "dimensionDataEntitySettings": {
+    "rootDataEntityId": {
+      "entityId": "customers-lijg",
+      "name": "Customers",
+      "projectId": "${vc_test}",
+      "dataAppId": "transform_a-9wb0"
+    },
+    "mapping": {
+      "columns": [
+        {
+          "columnName": "CustomerID",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${CustomerID}",
+            "alias": [
+              {
+                "name": "CustomerID",
+                "value": "CustomerID"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "CompanyName",
+          "expression": {
+            "expressionStatement": "${CompanyName}",
+            "alias": [
+              {
+                "name": "CompanyName",
+                "value": "CompanyName"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ContactName",
+          "expression": {
+            "expressionStatement": "${ContactName}",
+            "alias": [
+              {
+                "name": "ContactName",
+                "value": "ContactName"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ContactTitle",
+          "expression": {
+            "expressionStatement": "${ContactTitle}",
+            "alias": [
+              {
+                "name": "ContactTitle",
+                "value": "ContactTitle"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Address",
+          "expression": {
+            "expressionStatement": "${Address}",
+            "alias": [
+              {
+                "name": "Address",
+                "value": "Address"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "City",
+          "expression": {
+            "expressionStatement": "${City}",
+            "alias": [
+              {
+                "name": "City",
+                "value": "City"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Region",
+          "expression": {
+            "expressionStatement": "${Region}",
+            "alias": [
+              {
+                "name": "Region",
+                "value": "Region"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "PostalCode",
+          "expression": {
+            "expressionStatement": "${PostalCode}",
+            "alias": [
+              {
+                "name": "PostalCode",
+                "value": "PostalCode"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Country",
+          "expression": {
+            "expressionStatement": "${Country}",
+            "alias": [
+              {
+                "name": "Country",
+                "value": "Country"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Phone",
+          "expression": {
+            "expressionStatement": "${Phone}",
+            "alias": [
+              {
+                "name": "Phone",
+                "value": "Phone"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Fax",
+          "expression": {
+            "expressionStatement": "${Fax}",
+            "alias": [
+              {
+                "name": "Fax",
+                "value": "Fax"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "Test",
+          "expression": {
+            "expressionStatement": "${Test}",
+            "alias": [
+              {
+                "name": "Test",
+                "value": "Test"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ModifiedOn",
+          "expression": {
+            "expressionStatement": "${ModifiedOn}",
+            "alias": [
+              {
+                "name": "ModifiedOn",
+                "value": "ModifiedOn"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "id": "customers-ytwi",
+  "name": "Customers",
+  "description": "",
+  "version": "1"
+}

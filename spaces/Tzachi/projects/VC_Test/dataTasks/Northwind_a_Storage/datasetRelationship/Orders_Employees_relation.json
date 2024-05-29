@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "orders-9wbw",
+    "name": "Orders",
+    "projectId": "${vc_test}",
+    "dataAppId": "northwind_a_storage-9wbq"
+  },
+  "targetEntity": {
+    "entityId": "employees-9wbu",
+    "name": "Employees",
+    "projectId": "${vc_test}",
+    "dataAppId": "northwind_a_storage-9wbq"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "EmployeeID",
+      "targetColumn": "EmployeeID",
+      "sourceColumnId": "employeeid",
+      "targetColumnId": "employeeid"
+    }
+  ],
+  "id": "orders_employees_relation-rq8_",
+  "name": "Orders_Employees_relation",
+  "description": "",
+  "version": "1"
+}

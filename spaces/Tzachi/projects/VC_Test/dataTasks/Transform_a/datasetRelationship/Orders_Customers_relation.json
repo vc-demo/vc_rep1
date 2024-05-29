@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "orders-j4vo",
+    "name": "Orders",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "targetEntity": {
+    "entityId": "customers-lijg",
+    "name": "Customers",
+    "projectId": "${vc_test}",
+    "dataAppId": "transform_a-9wb0"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "CustomerID",
+      "targetColumn": "CustomerID",
+      "sourceColumnId": "customerid",
+      "targetColumnId": "customerid"
+    }
+  ],
+  "id": "orders_customers_relation-lijp",
+  "name": "Orders_Customers_relation",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "products",
+      "name": "Products",
+      "projectId": "${vc_test}",
+      "dataAppId": "northwind_a-9wbp"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "products-9wbx",
+  "name": "Products",
+  "description": "",
+  "version": "1"
+}

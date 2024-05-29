@@ -1,0 +1,13 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "Customers",
+    "dbSchema": "northwind_landing",
+    "dbName": "AAA_TZACHI2",
+    "secureQri": ""
+  },
+  "id": "$registered_data$northwind_landing_customers",
+  "name": "northwind_landing_Customers",
+  "description": "",
+  "version": "1"
+}

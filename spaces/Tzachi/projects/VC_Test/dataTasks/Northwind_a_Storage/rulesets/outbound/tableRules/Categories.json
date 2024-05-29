@@ -1,0 +1,18 @@
+{
+  "entityId": "categories-9wbs",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "Categories",
+    "whereColumnName": "%"
+  },
+  "enabled": true,
+  "transformedTableLocal": {
+    "transformedColumnsLocal": []
+  },
+  "id": "categories-w98t",
+  "name": "Categories",
+  "description": "",
+  "version": "1"
+}
