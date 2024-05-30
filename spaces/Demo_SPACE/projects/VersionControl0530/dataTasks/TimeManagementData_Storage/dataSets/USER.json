@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "user",
+      "name": "USER",
+      "projectId": "${versioncontrol0530}",
+      "dataAppId": "timemanagementdata-pdy7"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "user-pdy_",
+  "name": "USER",
+  "description": "",
+  "version": "1"
+}
