@@ -1,0 +1,15 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${time_management_versioncontrol}",
+        "dataAppId": "time_data-pdy0"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}

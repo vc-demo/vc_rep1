@@ -1,0 +1,18 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$registered_data$TIME_MANAGEMENT_time_event",
+      "schema": "TIME_MANAGEMENT",
+      "database": "CONNECT_VERSIONCONTROL",
+      "name": "TIME_EVENT",
+      "projectId": "${time_management_versioncontrol}",
+      "dataAppId": "time_data-pdy0"
+    }
+  ],
+  "id": "time_event",
+  "name": "TIME_EVENT",
+  "description": "",
+  "version": "1"
+}

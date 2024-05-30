@@ -1,0 +1,54 @@
+{
+  "project": {
+    "space": "Demo_SPACE",
+    "id": "${time_management_versioncontrol}",
+    "name": "Time_Management_VersionControl",
+    "type": "DATA_PIPELINE",
+    "description": "Time management for invoicing",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "Demo_SPACE",
+      "name": "Snowflake_DEMO",
+      "id": "3916278f-9ce4-42f6-aa54-a21ddd7c4aa0"
+    }
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "CONNECT_VERSIONCONTROL",
+    "storage": "CONNECT_VERSIONCONTROL",
+    "transform": "CONNECT_VERSIONCONTROL",
+    "datamart": "CONNECT_VERSIONCONTROL",
+    "registeredData": "CONNECT_VERSIONCONTROL",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "LOAD_WH",
+    "storage": "LOAD_WH",
+    "transform": "LOAD_WH",
+    "datamart": "LOAD_WH",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "time_data-pdy0",
+      "mappings": [
+        {
+          "from": {
+            "database": "CONNECT_VERSIONCONTROL",
+            "schema": "TIME_MANAGEMENT"
+          },
+          "to": {
+            "database": "CONNECT_VERSIONCONTROL",
+            "schema": "TIME_MANAGEMENT"
+          }
+        }
+      ]
+    }
+  ]
+}

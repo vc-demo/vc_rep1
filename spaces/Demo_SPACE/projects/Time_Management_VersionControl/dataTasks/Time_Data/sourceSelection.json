@@ -1,0 +1,26 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$TIME_MANAGEMENT_time_event",
+        "schema": "TIME_MANAGEMENT",
+        "database": "CONNECT_VERSIONCONTROL",
+        "name": "TIME_EVENT",
+        "projectId": "${time_management_versioncontrol}",
+        "dataAppId": "time_data-pdy0"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$TIME_MANAGEMENT_user",
+        "schema": "TIME_MANAGEMENT",
+        "database": "CONNECT_VERSIONCONTROL",
+        "name": "USER",
+        "projectId": "${time_management_versioncontrol}",
+        "dataAppId": "time_data-pdy0"
+      }
+    ]
+  }
+}
