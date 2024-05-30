@@ -1,0 +1,42 @@
+{
+  "fullLoadOnly": true,
+  "registeredAppSettings": {
+    "artifactsLocation": {
+      "internalSchema": "time_data__internal",
+      "dataAssetSchema": "time_data",
+      "database": "${registereddata}"
+    },
+    "incrementalSettings": {},
+    "artifactsInfo": {
+      "prefixForAllTablesAndViews": "",
+      "liveViews": {
+        "enabled": true,
+        "currentSuffix": "__live",
+        "historySuffix": "__live_history"
+      },
+      "headerColumnsPrefix": "hdr__",
+      "history": {
+        "historyViewsSuffix": "__history",
+        "fromDateColumnName": "hdr__from_timestamp",
+        "toDateColumnName": "hdr__to_timestamp",
+        "priorTablesSuffix": "__prior"
+      },
+      "changeTables": {
+        "enabled": true,
+        "tablesSuffix": "__ct",
+        "viewsSuffix": "__changes"
+      },
+      "standardViewsWithHeaders": {
+        "enabled": true,
+        "suffix": "__whdr"
+      },
+      "current": {
+        "standardViewsSuffix": "",
+        "currentTablesSuffix": "__current"
+      }
+    },
+    "catalogSettings": {
+      "tags": []
+    }
+  }
+}
