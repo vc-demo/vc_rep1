@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "contacts",
+      "name": "Contacts",
+      "projectId": "${adimay30}",
+      "dataAppId": "registered_datamay30-91qv"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "contacts-91qz",
+  "name": "Contacts",
+  "description": "",
+  "version": "1"
+}

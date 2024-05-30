@@ -1,0 +1,13 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "Categories",
+    "dbSchema": "NORTHWIND",
+    "dbName": "ORI",
+    "secureQri": ""
+  },
+  "id": "$registered_data$NORTHWIND_categories",
+  "name": "NORTHWIND_Categories",
+  "description": "",
+  "version": "1"
+}

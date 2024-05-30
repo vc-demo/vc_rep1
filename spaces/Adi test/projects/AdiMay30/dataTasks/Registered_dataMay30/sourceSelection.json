@@ -1,0 +1,26 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$NORTHWIND_categories",
+        "schema": "NORTHWIND",
+        "database": "ORI",
+        "name": "Categories",
+        "projectId": "${adimay30}",
+        "dataAppId": "registered_datamay30-91qv"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$NORTHWIND_contacts",
+        "schema": "NORTHWIND",
+        "database": "ORI",
+        "name": "Contacts",
+        "projectId": "${adimay30}",
+        "dataAppId": "registered_datamay30-91qv"
+      }
+    ]
+  }
+}

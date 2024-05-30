@@ -1,0 +1,18 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$registered_data$NORTHWIND_contacts",
+      "schema": "NORTHWIND",
+      "database": "ORI",
+      "name": "Contacts",
+      "projectId": "${adimay30}",
+      "dataAppId": "registered_datamay30-91qv"
+    }
+  ],
+  "id": "contacts",
+  "name": "Contacts",
+  "description": "",
+  "version": "1"
+}

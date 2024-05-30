@@ -1,0 +1,13 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "Contacts",
+    "dbSchema": "NORTHWIND",
+    "dbName": "ORI",
+    "secureQri": ""
+  },
+  "id": "$registered_data$NORTHWIND_contacts",
+  "name": "NORTHWIND_Contacts",
+  "description": "",
+  "version": "1"
+}
