@@ -1,0 +1,15 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${versioncontrol_0530}",
+        "dataAppId": "timedata-txys"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}

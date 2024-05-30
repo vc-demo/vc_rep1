@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "time_event",
+      "name": "TIME_EVENT",
+      "projectId": "${versioncontrol_0530}",
+      "dataAppId": "timedata-txys"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "time_event-txyv",
+  "name": "TIME_EVENT",
+  "description": "",
+  "version": "1"
+}
