@@ -1,0 +1,15 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "categories-91qy",
+      "name": "Categories",
+      "projectId": "${adimay30}",
+      "dataAppId": "registered_datamay30_storage-91qw"
+    }
+  ],
+  "id": "categories-91q2",
+  "name": "Categories",
+  "description": "",
+  "version": "1"
+}

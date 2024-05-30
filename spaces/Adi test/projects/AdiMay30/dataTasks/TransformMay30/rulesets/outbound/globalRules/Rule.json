@@ -1,0 +1,25 @@
+{
+  "actionType": "RENAME_TABLE",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "%",
+    "whereColumnName": "%"
+  },
+  "action": {
+    "renameType": "TO_UPPER",
+    "value": "",
+    "column": {
+      "nullable": true,
+      "datatype": {
+        "type": "STRING",
+        "length": 50,
+        "originalTypeFull": ""
+      }
+    }
+  },
+  "enabled": true,
+  "id": "rule-txyr",
+  "name": "Rule",
+  "description": "",
+  "version": "1"
+}

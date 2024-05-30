@@ -1,0 +1,15 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "contacts-91qz",
+      "name": "Contacts",
+      "projectId": "${adimay30}",
+      "dataAppId": "registered_datamay30_storage-91qw"
+    }
+  ],
+  "id": "contacts-pdyw",
+  "name": "Contacts",
+  "description": "",
+  "version": "1"
+}

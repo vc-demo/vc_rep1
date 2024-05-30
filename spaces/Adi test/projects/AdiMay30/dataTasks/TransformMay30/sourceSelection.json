@@ -1,0 +1,13 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${adimay30}",
+        "dataAppId": "registered_datamay30_storage-91qw"
+      }
+    ]
+  }
+}
