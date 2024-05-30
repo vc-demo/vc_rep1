@@ -1,0 +1,34 @@
+{
+  "entityId": "time_event",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "TIME_EVENT",
+    "whereColumnName": "%"
+  },
+  "enabled": true,
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "ADD",
+        "columnName": "LAST_UPDATED",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "",
+          "alias": []
+        },
+        "nullable": true,
+        "addedColumnId": "cc426348-b041-445f-a562-652ac1a49ac8"
+      }
+    ]
+  },
+  "id": "time_event-pdyz",
+  "name": "TIME_EVENT",
+  "description": "",
+  "version": "1"
+}
