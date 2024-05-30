@@ -4,7 +4,7 @@
     "id": "${versioncontrol0530}",
     "name": "VersionControl0530",
     "type": "DATA_PIPELINE",
-    "description": "Time management pipeline",
+    "description": "Time management pipeline for invoicing and reporting",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
