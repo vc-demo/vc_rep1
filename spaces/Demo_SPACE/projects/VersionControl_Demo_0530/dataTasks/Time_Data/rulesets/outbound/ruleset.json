@@ -1,0 +1,10 @@
+{
+  "tableRules": [
+    "time_event-pdy5"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}

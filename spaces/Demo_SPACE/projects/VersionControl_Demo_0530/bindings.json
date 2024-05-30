@@ -4,7 +4,7 @@
     "id": "${versioncontrol_demo_0530}",
     "name": "VersionControl_Demo_0530",
     "type": "DATA_PIPELINE",
-    "description": "Pipeline for time management",
+    "description": "Pipeline for time management and reporting",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",
